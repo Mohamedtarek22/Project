@@ -1,0 +1,10 @@
+ copy .env.example .env
+ php artisan generate:key
+ php artisan key:generate
+ php artisan serve
+php artisan migrate
+php artisan migrate:fresh                
+--seed
+
+name database : tour_package_db
+php artisan storage:link
